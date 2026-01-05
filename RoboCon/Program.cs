@@ -39,7 +39,7 @@ kb.Ingest(chunks);
 
 var agent = new ChatAgent(ai, shortMemory, longMemory,kb);
 
-Console.WriteLine("🤖 Robot is alive. Type something:");
+Console.WriteLine("🤖 Robot is alive . Type something:");
 Console.InputEncoding = Encoding.UTF8;
 Console.OutputEncoding = Encoding.UTF8;
 while (true)
